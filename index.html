@@ -15,9 +15,14 @@
   <div class="card">
     <!-- Rating state start -->
     <div class="rating-state">
-      <div class="star-icon">★</div>
-      <h1>How did we do?</h1>
-      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <div class="left-align-container">
+        <div class="star-icon">★</div>
+        <h1>How did we do?</h1>
+        <p><span >Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</span></p>
+      </div>
+
+      <br/>
+      
       <div class="rating-buttons">
         <button>1</button>
         <button>2</button>
@@ -28,8 +33,9 @@
       <button class="submit-button">Submit</button>
     </div>
     <!-- Thank you state start -->
-    <div class="thank-you-state" style="display: none;">
-      <p>You selected <span id="selected-rating"></span> out of 5</p>
+    <div class="thank-you-state">
+      <img src="./images/illustration-thank-you.svg" alt="Thank you illustration">
+      <p class="standout-text">You selected <span id="selected-rating"></span> out of 5</p>
       <h1>Thank you!</h1>
       <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
     </div>

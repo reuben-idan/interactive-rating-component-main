@@ -3,24 +3,54 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hsl(210, 36%, 96%);
+    background-color: hsl(216, 12%, 8%);
     font-family: Arial, sans-serif;
   }
   .card {
-    background: white;
+    background: radial-gradient(circle at top left, #1F2A44, #0D1117);
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
   }
-  .star-icon {
-    font-size: 24px;
-    color: orange;
+  .left-align-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px; /* Adjust the gap between elements as needed */
   }
+  
+  .star-icon {
+    font-size: 24px; /* Adjust the size as needed */
+    color: orange; /* Adjust the color as needed */
+  }
+  
+  h1{
+    margin: 0; /* Remove default margins */
+    text-align: left;
+   
+    font-family:'https://fonts.google.com/specimen/Overpass';
+    color:hsl(0, 0%, 100%) ;
+    font-weight: 700;
+   
+  }
+
+   p {
+    margin: 0; /* Remove default margins */
+    text-align: left;
+    
+    font-family:'https://fonts.google.com/specimen/Overpass';
+    color:hsl(217, 12%, 63%) ;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  
+  
   .rating-buttons button {
-    background: hsl(210, 36%, 96%);
+    background: hsl(214, 14%, 28%);
     border: none;
     border-radius: 50%;
     width: 40px;
@@ -40,8 +70,60 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     margin-top: 20px;
+    width: 250px;
   }
   .submit-button:hover {
     background: hsl(25, 97%, 63%);
   }
+
+  .thank-you-state {
+    background: radial-gradient(circle at top left, #1F2A44, #0D1117);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 40px;
+    font-family:'https://fonts.google.com/specimen/Overpass';
+    display: none; /* Initially hidden */
+  }
+  
+  .thank-you-state img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .thank-you-state p {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .thank-you-state h1 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .thank-you-state span {
+    font-weight: bold;
+    
+  }
+
+
+  .standout-text {
+    display: inline-block;
+    background: linear-gradient(145deg, #1F2A44, #0D1117);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .standout-text:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
+  }
+  
   
