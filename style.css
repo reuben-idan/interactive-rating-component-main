@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(210, 36%, 96%);
+    font-family: Arial, sans-serif;
+  }
+  .card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  .star-icon {
+    font-size: 24px;
+    color: orange;
+  }
+  .rating-buttons button {
+    background: hsl(210, 36%, 96%);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .rating-buttons button:hover {
+    background: hsl(25, 97%, 53%);
+    color: white;
+  }
+  .submit-button {
+    background: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .submit-button:hover {
+    background: hsl(25, 97%, 63%);
+  }
+  
